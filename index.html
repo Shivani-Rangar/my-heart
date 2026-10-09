@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Heart For You ❤️</title>
+
+<style>
+body {
+  background: #160b20;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.heart {
+  font-size: 120px;
+  animation: beat 1s infinite;
+  filter: drop-shadow(0 0 20px #ff1744);
+}
+
+h1 {
+  color: #ff5c8a;
+}
+
+p {
+  font-size: 18px;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+</style>
+</head>
+
+<body>
+  <div class="heart">❤️</div>
+  <h1>A Little Heart For You!</h1>
+  <p>Made with Python and lots of love 💖</p>
+</body>
+</html>
